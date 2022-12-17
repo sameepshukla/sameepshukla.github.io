@@ -1,0 +1,9 @@
+@media screen and (max-width: 820px)  {
+    .about {
+        scale: 0.9;
+    }
+    .interest-bg {
+        border-top-right-radius: 20%;
+        border-top-left-radius: 20%;
+    }
+}
