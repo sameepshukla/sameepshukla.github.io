@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Home.css';
 import '../styles/Home810.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import { TfiWorld } from 'react-icons/tfi';
 import { BsPerson } from 'react-icons/bs';
@@ -132,9 +132,9 @@ const Home = () => {
             </a>
 
             {/* My DRIVE  */}
-            <Link
+            <a
               className="My-Drive justify-center items-center flex gap-2 flex-col test-lg font-bold"
-              to={'/myLinux'}
+              href={'/myLinux'}
               target="blank"
             >
               <img
@@ -143,7 +143,7 @@ const Home = () => {
                 src="./Images/driveblock.svg"
               />
               <div className="My-Drive-name">My Linux</div>
-            </Link>
+            </a>
           </div>
 
           <div className="folders flex flex-wrap p-4 sm:p-0 md:p-1 md:w-full sm:w-full object-contain z-5 justify-center sm:justify-end md:justify-end text-lg gap-8 font-bold md:scale-[0.8] sm:scale-[0.7] md:gap-[50px] sm:gap-[50px] sm:relative sm:top-[-90px] sm:left-[-5%]">

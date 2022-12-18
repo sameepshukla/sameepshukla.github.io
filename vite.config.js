@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // base: '/sameep_neoBrutalism/'
-  // base: '/sameepshukla.github.io/'
+  base: '/sameepshukla.github.io/'
 })
