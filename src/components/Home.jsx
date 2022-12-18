@@ -70,7 +70,7 @@ const Home = () => {
                       <h2 className="font-roboto">@Freelance</h2>
                     </div>
                   </div>
-                  <div className="me pt-6 text-xl">
+                  <div className="me pt-6 text-xl sm:px-2 whitespace-normal">
                     <p>
                       Hello everyone <br /> I’m a red teamer, highly interested
                       in penetration testing, VA/PT, troubleshooting and Open
@@ -85,7 +85,7 @@ const Home = () => {
                 <div className="h2-sm sm:w-full sm:flex sm:justify-center">
                 <h2>SOCIAL LINKS : </h2>
                 </div>
-                <div className="sm:flex sm:gap-8">
+                <div className="sm:flex sm:gap-8 flex gap-6">
                 <a href='https://config.figma.com/events/figma-config-2022/agenda' target='_blank' className='border-b-2 border-black w-32 flex gap-2'>  
                 <BsTwitter className='relative top-1' />
                 {/* <h2 className=' flex gap-4'> */}
