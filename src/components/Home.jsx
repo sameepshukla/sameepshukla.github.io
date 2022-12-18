@@ -6,7 +6,7 @@ import { TfiWorld } from 'react-icons/tfi';
 import { BsPerson } from 'react-icons/bs';
 import { BiCircle } from 'react-icons/bi';
 import { BsArrowUpRight, BsTwitter, BsLinkedin } from 'react-icons/bs';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -153,44 +153,44 @@ const Home = () => {
 
           <div className="folders flex flex-wrap p-4 sm:p-0 md:p-1 md:w-full sm:w-full object-contain z-5 justify-end text-lg gap-8 font-bold md:scale-[0.8] sm:scale-[0.7] md:gap-[50px] sm:gap-[50px] sm:relative sm:top-[-90px] sm:left-[-5%]">
             {/* FOLDER 1  */}
-            <Link to={'./myFolder'}>
+            <a href='#'>
               <img
                 className="folder1-img hover:opacity-80"
                 alt="folder1 logo"
                 src="./Images/folderblock3.svg"
               />
               <div className="folder1-Name">MY Folder</div>
-            </Link>
+            </a>
 
             {/* FOLDER 2  */} 
-            <Link to={'./music'}>
+            <a href='#'>
               <img
                 className="music-img hover:opacity-80"
                 alt="music logo"
                 src="./Images/folderblock2.svg"
               />
               <div className="music-Name">Music</div>
-            </Link>
+            </a>
 
             {/* FOLDER 3  */}
-            <Link to={'./reading'}>
+            <a href='#'>
               <img
                 className="reading-img hover:opacity-80"
                 alt="reading logo"
                 src="./Images/folderblock1.svg"
               />
               <div className="reading-Name">Reading</div>
-            </Link>
+            </a>
 
             {/* FOLDER 4  */}
-            <Link to={'./movies'}>
+            <a href='#'>
               <img
                 className="movies-img hover:opacity-80"
                 alt="movies logo"
                 src="./Images/folderblock.svg"
               />
               <div className="movies-Name">Movies</div>
-            </Link>
+            </a>
           </div>
         </div>
         <div className="interest z-50 flex justify-around flex-wrap gap-4 md:absolute md:bottom-2">
