@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <section className="w-[100%] h-[100vh] flex justify-center items-center overflow-auto p-4">
+    <section className="w-[100%] h-[130vh] md:h-[155vh] sm:h-[200vh] flex justify-center items-center overflow-auto p-4">
       <div className="home-container w-[92vw] sm:w-full sm:h-[2100px] h-[800px] md:h-[1600px] object-contain z-10 border-8 border-black absolute top-12 sm:top-0 mb-4 sm:mb-0 shadow-[16px 12px 0px #000]">
         <div className="card-top flex justify-between p-1 bg-black text-white">
           <div className="heading-left flex flex-wrap whitespace-nowrap gap-2">
@@ -45,11 +45,11 @@ const Home = () => {
           <div className="bg-white w-full h-full opacity-100">
             <div className="about-top w-full h-[75%] border-b-4 border-black flex sm:flex-col">
               <div className="left-part w-[40%] sm:w-[50%] sm:absolute sm:left-[25%] sm:h-fit h-full">
-                <div className="image-container w-[90%]">
+                <div className="image-container w-[90%] h-64 sm:h-48 flex justify-center items-center">
                   <img
                     src="./Images/pic.png"
                     alt="author image"
-                    className="w-[100%] author-img"
+                    className=" w-[80%] h-[80%] author-img"
                   />
                 </div>
               </div>
@@ -73,7 +73,7 @@ const Home = () => {
                   <div className="me pt-6 text-xl sm:px-2 whitespace-normal">
                     <p>
                       Hello everyone <br /> I’m a red teamer, highly interested
-                      in penetration testing, VA/PT, troubleshooting and Open
+                      in VA/PT, troubleshooting and Open
                       Source.{' '}
                     </p>
                   </div>
@@ -86,14 +86,14 @@ const Home = () => {
                 <h2>SOCIAL LINKS : </h2>
                 </div>
                 <div className="sm:flex sm:gap-8 flex gap-6">
-                <a href='https://config.figma.com/events/figma-config-2022/agenda' target='_blank' className='border-b-2 border-black w-32 flex gap-2'>  
+                <a href='https://twitter.com/xov3d' target='_blank' className='border-b-2 border-black w-32 flex gap-2'>  
                 <BsTwitter className='relative top-1' />
                 {/* <h2 className=' flex gap-4'> */}
                   @TWITTER
                   {/* </h2> */}
                 <BsArrowUpRight className='relative top-1 left-1'/>
                 </a>
-                <a href='https://config.figma.com/events/figma-config-2022/agenda' target='_blank' className='border-b-2 border-black w-32 flex gap-2'>  
+                <a href='https://www.linkedin.com/in/sameep-shukla-4a07bb201/' target='_blank' className='border-b-2 border-black w-32 flex gap-2'>  
                 <BsLinkedin className='relative top-1' />
                 <h2 className=' flex gap-4'>@LINKEDIN</h2>
                 <BsArrowUpRight className='relative top-1 left-1'/>
@@ -147,7 +147,7 @@ const Home = () => {
                 alt="My-Drive logo"
                 src="./Images/driveblock.svg"
               />
-              <div className="My-Drive-name">My Drive</div>
+              <div className="My-Drive-name">My Linux</div>
             </a>
           </div>
 
@@ -206,7 +206,7 @@ const Home = () => {
             </div>
           </div>
             <div className="card-text-interest flex justify-start items-end bg-slate-50 w-full h-[150px]">
-              <div className="w-[98%] h-[145px] bg-slate-500 flex">
+              <div className="w-[98%] h-[145px] bg-slate-500 flex music-inner">
                 <div className="pic w-[30%] h-full object-contain">
                   <img src="./Images/artworkpic.svg" alt="artist" className='pt-4 pl-4'/>
                 </div>
@@ -260,7 +260,7 @@ const Home = () => {
                 
               </div>
               <div className="lower h-[20%] object-contain bg-black flex items-center pl-4 gap-4">
-                <a href='https://config.figma.com/events/figma-config-2022/agenda' target='_blank' className='border-b-2 border-white flex'>  
+                <a href='#' target='_blank' className='border-b-2 border-white flex'>  
                 <h2 className='text-white flex gap-4'>AGENDA </h2>
                 <BsArrowUpRight className='text-white relative top-1 left-1'/>
                 </a>
