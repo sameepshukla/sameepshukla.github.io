@@ -6,11 +6,13 @@ import { TfiWorld } from 'react-icons/tfi';
 import { BsPerson } from 'react-icons/bs';
 import { BiCircle } from 'react-icons/bi';
 import { BsArrowUpRight, BsTwitter, BsLinkedin } from 'react-icons/bs';
+
+
 // import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <section className="w-[100%] h-[130vh] md:h-[155vh] sm:h-[200vh] flex justify-center items-center overflow-auto p-4">
+    <section className="w-[100%] h-[130vh] md:h-[155vh] sm:h-[200vh] flex justify-center items-center overflow-auto p-4 bg-[url('./Images/spheregrid.svg')] cursor-[url('./Images/cursorcluster.svg'),auto]">
       <div className="home-container w-[92vw] sm:w-full sm:h-[2100px] h-[800px] md:h-[1600px] object-contain z-10 border-8 border-black absolute top-12 sm:top-0 mb-4 sm:mb-0 shadow-[16px 12px 0px #000]">
         <div className="card-top flex justify-between p-1 bg-black text-white">
           <div className="heading-left flex flex-wrap whitespace-nowrap gap-2">
@@ -80,7 +82,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="about-bottom w-full h-[25%] sm:flex-wrap flex justify-between sm:items-start">
+            <div className="about-bottom w-full h-[25%] sm:flex-wrap flex justify-between sm:items-start bg-[url('./Images/grid.png')]">
               <span className='flex gap-8 pt-8 pl-4 sm:w-full sm:justify-center sm:flex-col sm:pt-4 sm:gap-4 sm:items-center'>
                 <div className="h2-sm sm:w-full sm:flex sm:justify-center">
                 <h2>SOCIAL LINKS : </h2>
