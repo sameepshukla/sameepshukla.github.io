@@ -1,0 +1,307 @@
+.frameDiv,
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #1e1e1e;
+  width: 1920px;
+  height: 1080px;
+}
+.frameDiv {
+  top: 60px;
+  background-color: transparent;
+  width: 1909px;
+  height: 1020px;
+  overflow: hidden;
+  display: none;
+  mix-blend-mode: normal;
+}
+.download551,
+.rectangleDiv1 {
+  position: absolute;
+  left: 0;
+  width: 1920px;
+}
+.download551 {
+  top: 30px;
+  height: 1050px;
+  object-fit: cover;
+}
+.rectangleDiv1 {
+  top: 0;
+  border-radius: var(--br-md);
+  background-color: #fbef4d;
+  box-shadow: -2px 12px 0-2px #000, 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 60px;
+}
+.sameepShukla {
+  position: absolute;
+  top: 17px;
+  left: -85px;
+  font-size: 29px;
+  letter-spacing: -0.01em;
+  font-family: var(--font-eternal);
+  color: var(--greyscale-k);
+  display: none;
+  width: 481px;
+  height: 26px;
+  mix-blend-mode: normal;
+}
+.contact,
+.file {
+  top: 0;
+  letter-spacing: -0.01em;
+  display: inline-block;
+  width: 136.67px;
+}
+.file {
+  position: absolute;
+  left: 0;
+  height: 25px;
+}
+.contact {
+  left: 106.75px;
+}
+.contact,
+.leftpan,
+.settings {
+  position: absolute;
+  height: 25px;
+}
+.settings {
+  top: 0;
+  left: 235.33px;
+  letter-spacing: -0.01em;
+  display: inline-block;
+  width: 136.67px;
+}
+.leftpan {
+  top: 14px;
+  left: 49px;
+  width: 372px;
+}
+.debianLogo1024x5761Icon {
+  position: absolute;
+  top: 0;
+  left: 7px;
+  width: 59px;
+  height: 60px;
+  object-fit: cover;
+}
+.span {
+  letter-spacing: -0.01em;
+}
+.span1 {
+  letter-spacing: -0.33em;
+}
+.aM {
+  position: absolute;
+  top: 13px;
+  left: 1489px;
+  display: inline-block;
+  width: 169px;
+  height: 35px;
+}
+.images1Icon,
+.powerButtonSign11549514641gIcon {
+  position: absolute;
+  top: 12px;
+  left: 1864px;
+  width: 41px;
+  height: 37px;
+  object-fit: cover;
+}
+.images1Icon {
+  top: 4px;
+  left: 1714px;
+  width: 67px;
+  height: 55px;
+}
+.ethernetFreeIconEthernetIc,
+.path171 {
+  position: absolute;
+  top: 6px;
+  left: 1796px;
+  width: 49px;
+  height: 48px;
+  object-fit: cover;
+}
+.ethernetFreeIconEthernetIc {
+  top: 10px;
+  left: 1646px;
+  width: 64px;
+  height: 41px;
+}
+.projects {
+  position: absolute;
+  top: 488px;
+  left: 4px;
+  letter-spacing: -0.01em;
+  display: inline-block;
+  width: 139px;
+  height: 32px;
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 0.86);
+}
+.fOLIE1Icon {
+  position: absolute;
+  top: 370px;
+  left: 0;
+  width: 148px;
+  height: 119px;
+  object-fit: cover;
+}
+.socials {
+  position: absolute;
+  top: 294px;
+  left: 4px;
+  letter-spacing: -0.01em;
+  display: inline-block;
+  width: 139px;
+  height: 32px;
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 0.86);
+}
+.fOLIE2Icon {
+  position: absolute;
+  top: 191px;
+  left: 0;
+  width: 148px;
+  height: 119px;
+  object-fit: cover;
+}
+.about1 {
+  margin-block-start: 0;
+  margin-block-end: 63px;
+}
+.about {
+  position: absolute;
+  top: 107px;
+  left: 4px;
+  letter-spacing: -0.01em;
+  display: inline-block;
+  width: 139px;
+  height: 32px;
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 0.86);
+}
+.fOLIE3Icon,
+.folders {
+  position: absolute;
+  width: 148px;
+}
+.fOLIE3Icon {
+  top: 0;
+  left: 0;
+  height: 119px;
+  object-fit: cover;
+}
+.folders {
+  top: 142px;
+  left: 1680px;
+  height: 520px;
+  color: var(--greyscale-w);
+}
+.rectangleDiv2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: rgba(75, 130, 163, 0.81);
+  box-shadow: 12px 13px 0-2px #000;
+  width: 824px;
+  height: 85px;
+}
+.trashcam1Icon {
+  position: absolute;
+  top: 11px;
+  left: 719px;
+  width: 72px;
+  height: 66px;
+  object-fit: cover;
+}
+.firefoxLogo20191Icon,
+.githubLogoIcon1437721 {
+  position: absolute;
+  top: 0;
+  left: 493px;
+  width: 101px;
+  height: 91px;
+  object-fit: cover;
+}
+.githubLogoIcon1437721 {
+  left: 0;
+  width: 72px;
+  height: 73px;
+}
+.groupDiv,
+.icon {
+  position: absolute;
+}
+.icon {
+  top: 3px;
+  left: 4px;
+  width: 62px;
+  height: 61px;
+  object-fit: cover;
+}
+.groupDiv {
+  top: 9px;
+  left: 619px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 68px;
+  height: 68px;
+}
+.clipboard1Icon,
+.file1Icon {
+  position: absolute;
+  top: 9px;
+  left: 396px;
+  width: 79px;
+  height: 75px;
+  object-fit: cover;
+}
+.file1Icon {
+  top: 6px;
+  left: 42px;
+  width: 95px;
+}
+.googleLogo28FA7991AFSeeklogIcon,
+.pngTransparentComputerTermiIcon {
+  position: absolute;
+  top: 12px;
+  left: 280px;
+  width: 84px;
+  height: 76px;
+  object-fit: cover;
+}
+.pngTransparentComputerTermiIcon {
+  top: 2px;
+  left: 162px;
+  width: 94px;
+  height: 91px;
+}
+.dock,
+.icon1 {
+  position: absolute;
+}
+.dock {
+  top: 966px;
+  left: 525px;
+  box-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 824px;
+  height: 89px;
+}
+.icon1 {
+  top: 491px;
+  left: 0;
+  width: 77px;
+  height: 72px;
+  object-fit: cover;
+}
+.page {
+  position: relative;
+  width: 100%;
+  height: 1080px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  font-family: var(--font-jetbrains-mono);
+}

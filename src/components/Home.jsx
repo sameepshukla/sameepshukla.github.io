@@ -1,18 +1,16 @@
 import React from 'react';
 import '../styles/Home.css';
 import '../styles/Home810.css';
+import { Link } from 'react-router-dom';
 
 import { TfiWorld } from 'react-icons/tfi';
 import { BsPerson } from 'react-icons/bs';
 import { BiCircle } from 'react-icons/bi';
 import { BsArrowUpRight, BsTwitter, BsLinkedin } from 'react-icons/bs';
 
-
-// import { Link } from 'react-router-dom';
-
 const Home = () => {
   return (
-    <section className="w-[100%] h-[130vh] md:h-[155vh] sm:h-[200vh] flex justify-center items-center overflow-auto p-4 bg-[url('./Images/spheregrid.svg')] cursor-[url('./Images/cursorcluster.svg'),auto]">
+    <section className="w-[100%] h-[130vh] md:h-[155vh] sm:h-[200vh] flex justify-center items-center overflow-auto p-4 bg-[url('/spheregrid.svg')] cursor-[url('/cursorcluster.svg'),auto]">
       <div className="home-container w-[92vw] sm:w-full sm:h-[2100px] h-[800px] md:h-[1600px] object-contain z-10 border-8 border-black absolute top-12 sm:top-0 mb-4 sm:mb-0 shadow-[16px 12px 0px #000]">
         <div className="card-top flex justify-between p-1 bg-black text-white">
           <div className="heading-left flex flex-wrap whitespace-nowrap gap-2">
@@ -24,11 +22,6 @@ const Home = () => {
             <h2>IND</h2>
           </div>
         </div>
-        {/* <img
-          src="./Images/wallpaperselector.svg"
-          alt="card-background"
-          className="card-image -z-10"
-        /> */}
 
         <div className="about h-[460px] w-[700px] sm:h-[720px] sm:w-full absolute top-12 left-4 sm:left-0 border-8 border-black z-10 overflow-hidden shrink-0">
           <div className="about-card flex justify-between items-center p-1 bg-black text-white">
@@ -82,7 +75,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="about-bottom w-full h-[25%] sm:flex-wrap flex justify-between sm:items-start bg-[url('./Images/grid.png')]">
+            <div className="about-bottom w-full h-[25%] sm:flex-wrap flex justify-between sm:items-start bg-[url('/Images/grid.png')]">
               <span className='flex gap-8 pt-8 pl-4 sm:w-full sm:justify-center sm:flex-col sm:pt-4 sm:gap-4 sm:items-center'>
                 <div className="h2-sm sm:w-full sm:flex sm:justify-center">
                 <h2>SOCIAL LINKS : </h2>
@@ -139,9 +132,9 @@ const Home = () => {
             </a>
 
             {/* My DRIVE  */}
-            <a
+            <Link
               className="My-Drive justify-center items-center flex gap-2 flex-col test-lg font-bold"
-              href="/page"
+              to={'/myLinux'}
               target="blank"
             >
               <img
@@ -150,10 +143,10 @@ const Home = () => {
                 src="./Images/driveblock.svg"
               />
               <div className="My-Drive-name">My Linux</div>
-            </a>
+            </Link>
           </div>
 
-          <div className="folders flex flex-wrap p-4 sm:p-0 md:p-1 md:w-full sm:w-full object-contain z-5 justify-end text-lg gap-8 font-bold md:scale-[0.8] sm:scale-[0.7] md:gap-[50px] sm:gap-[50px] sm:relative sm:top-[-90px] sm:left-[-5%]">
+          <div className="folders flex flex-wrap p-4 sm:p-0 md:p-1 md:w-full sm:w-full object-contain z-5 justify-center sm:justify-end md:justify-end text-lg gap-8 font-bold md:scale-[0.8] sm:scale-[0.7] md:gap-[50px] sm:gap-[50px] sm:relative sm:top-[-90px] sm:left-[-5%]">
             {/* FOLDER 1  */}
             <a href='#'>
               <img
@@ -161,7 +154,7 @@ const Home = () => {
                 alt="folder1 logo"
                 src="./Images/folderblock3.svg"
               />
-              <div className="folder1-Name">MY Folder</div>
+              <div className="folder1-Name">MY BLOGS</div>
             </a>
 
             {/* FOLDER 2  */} 
